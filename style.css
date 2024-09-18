@@ -12,7 +12,7 @@ header {
   text-align: center;
 }
 
-main {
+.tabela {
   margin: 20px 0;
 }
 
@@ -50,4 +50,32 @@ footer {
   position: relative;
   bottom: 0;
   width: 100%;
+}
+
+/* Estilização do input */
+input[type="text"] {
+  width: 100%; /* Largura total */
+  padding: 10px; /* Espaçamento interno */
+  border: 2px solid #4caf50; /* Bordas verdes */
+  border-radius: 5px; /* Bordas arredondadas */
+  font-size: 16px; /* Tamanho da fonte */
+  margin-bottom: 10px; /* Espaço abaixo do input */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra leve */
+}
+
+/* Estilização do botão */
+button {
+  background-color: #4caf50; /* Fundo verde forte */
+  color: white; /* Texto branco */
+  padding: 10px 15px; /* Espaçamento interno */
+  border: none; /* Sem bordas */
+  border-radius: 5px; /* Bordas arredondadas */
+  font-size: 16px; /* Tamanho da fonte */
+  cursor: pointer; /* Cursor em forma de mão */
+  transition: background-color 0.3s; /* Transição suave para a cor de fundo */
+}
+
+/* Efeito ao passar o mouse sobre o botão */
+button:hover {
+  background-color: #388e3c; /* Verde escuro ao passar o mouse */
 }
