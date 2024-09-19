@@ -1,12 +1,12 @@
 body {
   font-family: Arial, sans-serif;
-  background-color: #e9f5e9; /* Fundo verde claro */
+  background-color: #e9f5e9;
   margin: 0;
   padding: 20px;
 }
 
 header {
-  background-color: #4caf50; /* Verde forte */
+  background-color: #4caf50;
   color: white;
   padding: 10px 20px;
   text-align: center;
@@ -19,63 +19,60 @@ header {
 table {
   width: 100%;
   border-collapse: collapse;
-  background-color: white; /* Fundo branco para a tabela */
+  background-color: white;
 }
 
 th {
-  background-color: #81c784; /* Verde suave para o cabeçalho */
+  background-color: #81c784;
   color: white;
   padding: 10px;
 }
 
 td {
-  border: 1px solid #4caf50; /* Bordas verdes */
+  border: 1px solid #4caf50;
   padding: 10px;
   text-align: left;
 }
 
 tr:nth-child(even) {
-  background-color: #f1f8e9; /* Verde muito claro para linhas pares */
+  background-color: #f1f8e9;
 }
 
 tr:hover {
-  background-color: #c8e6c9; /* Verde claro para destaque ao passar o mouse */
+  background-color: #c8e6c9;
 }
 
 footer {
   text-align: center;
   padding: 10px 0;
-  background-color: #4caf50; /* Verde forte */
+  background-color: #4caf50;
   color: white;
   position: relative;
   bottom: 0;
   width: 100%;
 }
 
-/* Estilização do input */
 input[type="text"] {
-  width: 100%; /* Largura total */
-  padding: 10px; /* Espaçamento interno */
-  border: 2px solid #4caf50; /* Bordas verdes */
-  border-radius: 5px; /* Bordas arredondadas */
-  font-size: 16px; /* Tamanho da fonte */
-  margin-bottom: 10px; /* Espaço abaixo do input */
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra leve */
+  width: 100%;
+  padding: 10px;
+  border: 2px solid #4caf50;
+  border-radius: 5px;
+  font-size: 16px;
+  margin-bottom: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
-/* Estilização do botão */
 button {
-  background-color: #4caf50; /* Fundo verde forte */
-  color: white; /* Texto branco */
-  padding: 10px 15px; /* Espaçamento interno */
-  border: none; /* Sem bordas */
-  border-radius: 5px; /* Bordas arredondadas */
-  font-size: 16px; /* Tamanho da fonte */
-  cursor: pointer; /* Cursor em forma de mão */
-  transition: background-color 0.3s; /* Transição suave para a cor de fundo */
+  background-color: #4caf50;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
 }
 
-/* Efeito ao passar o mouse sobre o botão */
 button:hover {
-  background-color: #388e3c; /* Verde escuro ao passar o mouse */
+  background-color: #388e3c;
 }
