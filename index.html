@@ -50,21 +50,15 @@
     </footer>
     <script>
         function adicionarNome() {
-            // Obtém o valor do input
             const nomeInput = document.getElementById('nomeInput');
             const nome = nomeInput.value.trim();
-
-            // Verifica se o campo não está vazio
             if (nome) {
-                // Cria uma nova linha na tabela
                 const tabela = document.getElementById('tabelaFrequencia').getElementsByTagName('tbody')[0];
                 const novaLinha = tabela.insertRow();
 
-                // Adiciona uma célula à nova linha
                 const novaCelula = novaLinha.insertCell(0);
                 novaCelula.textContent = nome;
 
-                // Limpa o campo de input
                 nomeInput.value = '';
             } else {
                 alert('Por favor, digite um nome.');
