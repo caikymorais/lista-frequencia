@@ -4,6 +4,7 @@ body {
   color: #333;
   margin: 0;
   padding: 20px; /* Adicionando o padding da versão 'caiky' */
+  padding-top: 140px; /* Adicionando um espaçamento superior para compensar o header fixo */
 }
 
 header {
@@ -58,12 +59,11 @@ footer {
 }
 
 input[type="text"] {
-  width: 100%;
+  width: 50%;
   padding: 10px;
   border: 2px solid #4caf50;
-  border-radius: 5px;
+  border-radius: 3px;
   font-size: 16px;
-  margin-bottom: 10px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 

@@ -46,7 +46,7 @@
     </div>
 
     <footer>
-        <p>Lista de frequencia para o trabalho de DEVOPS</p>
+        <p>Lista de frequência para o trabalho de DEVOPS</p>
     </footer>
     <script>
         function adicionarNome() {
@@ -56,14 +56,23 @@
                 const tabela = document.getElementById('tabelaFrequencia').getElementsByTagName('tbody')[0];
                 const novaLinha = tabela.insertRow();
 
-                const novaCelula = novaLinha.insertCell(0);
-                novaCelula.textContent = nome;
+                // Adiciona o nome
+                const celulaNome = novaLinha.insertCell(0);
+                celulaNome.textContent = nome;
 
+                // Adiciona o checkbox de presença
+                const celulaPresenca = novaLinha.insertCell(1);
+                const checkbox = document.createElement('input');
+                checkbox.type = 'checkbox';
+                celulaPresenca.appendChild(checkbox);
+
+                // Limpa o campo de entrada
                 nomeInput.value = '';
             } else {
                 alert('Por favor, digite um nome.');
             }
         }
     </script>
-  </body>
+</body>
+
 </html>
