@@ -1,67 +1,83 @@
-/* Estilização geral */
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f4f4f4;
-    color: #333;
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4; /* Mantendo a cor de fundo da versão 'main' */
+  color: #333;
+  margin: 0;
+  padding: 20px; /* Adicionando o padding da versão 'caiky' */
 }
 
 header {
-    background-color: #4CAF50;
-    color: white;
-    padding: 20px;
-    text-align: center;
-    position: fixed;
-    top: 0;
-    width: 100%;
-    z-index: 1000;
+  background-color: #4caf50;
+  color: white;
+  padding: 20px; /* Mantendo o padding maior */
+  text-align: center;
+  position: fixed; /* Mantendo a posição fixa */
+  top: 0;
+  width: 100%;
+  z-index: 1000;
 }
 
-h1 {
-    margin: 0;
-    font-size: 24px;
+.tabela {
+  margin: 20px 0;
 }
 
-/* Espaço para o conteúdo sob o cabeçalho fixo */
-main {
-    margin-top: 80px;
-    padding: 20px;
-    text-align: center;
-}
-
-/* Estilização da tabela */
 table {
-    width: 100%;
-    max-width: 600px;
-    margin: 0 auto;
-    border-collapse: collapse;
-    background-color: white;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  border-collapse: collapse;
+  background-color: white;
 }
 
-table th, table td {
-    padding: 12px;
-    border: 1px solid #ddd;
-    text-align: left;
+th {
+  background-color: #81c784;
+  color: white;
+  padding: 10px;
 }
 
-table th {
-    background-color: #f2f2f2;
-    font-weight: bold;
+td {
+  border: 1px solid #4caf50;
+  padding: 10px;
+  text-align: left;
 }
 
-table tr:nth-child(even) {
-    background-color: #f9f9f9;
+tr:nth-child(even) {
+  background-color: #f1f8e9;
 }
 
-/* Estilização do rodapé */
+tr:hover {
+  background-color: #c8e6c9;
+}
+
 footer {
-    text-align: center;
-    padding: 10px;
-    background-color: #4CAF50;
-    color: white;
-    position: fixed;
-    width: 100%;
-    bottom: 0;
+  text-align: center;
+  padding: 10px 0;
+  background-color: #4caf50;
+  color: white;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  border: 2px solid #4caf50;
+  border-radius: 5px;
+  font-size: 16px;
+  margin-bottom: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+button {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #388e3c;
 }
